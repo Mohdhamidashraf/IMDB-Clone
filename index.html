@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMDB ~ Hamid</title>
+    <!-- website logo -->
+    <link rel="icon" href="imdb_logo.png" />
+    <!-- all icon link in fontawesome -->
+    <script
+       src="https://kit.fontawesome.com/0a2d813aba.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- css style stylesheet link -->
+    <link rel="stylesheet" href="index.css" />   
+    <!-- meta tag  github error hendelar -->
+        <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav id="conteiner">
+      <div class="left_site">
+        <img
+          class="imdb_logo"
+          src="https://user-images.githubusercontent.com/120245077/215098474-34992608-a9be-4bfa-a9a2-560a1e3dff7c.png"
+          alt="wait"
+        />
+        <a href=""
+          ><h4><i class="fa-solid fa-house"></i>Home</h4></a
+        >
+      </div>
+      <div class="nave_midel">
+        <div class="input">
+          <input
+            id="search-bar"
+            name="movie"
+            type="text"
+            placeholder="Search IMDB"
+          />
+          <i
+            style="cursor: pointer"
+            onclick="clickToSearch()"
+            class="fa-solid fa-magnifying-glass"
+          ></i>
+        </div>
+      </div>
+
+      <div class="nav_end">
+        <a href="favourite.html">
+          <button>
+            <h4 id="small"><i class="fa-regular fa-star"></i>favourite Movies</h4>
+          </button>
+        </a>
+      </div>
+    </nav>
+
+
+
+    <!-- main  search and show move section -->
+    <section id="show_all">
+      <div class="cards" id="show_move">
+        <!-- <div class="card">
+          <img class="movi_image" src="cat.jpg" alt="wait" />
+          <h1>titel</h1>
+          <h2>langues</h2>
+          <h3>hero</h3>
+          <h4>all actor name</h4>
+
+          <button><h4><i class="fa-regular fa-star"></i> Feverite</h4></button>
+        </div>
+        end -->
+      </div>
+    </section>
+
+    <!-- link java script file -->
+    <script src="index.js"></script>
+    <!-- <script src="scriptDetalis.js"></script> -->
+  </body>
+</html>

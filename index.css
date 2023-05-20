@@ -1,0 +1,176 @@
+body {
+  margin: 0px;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+#conteiner {
+  padding-top: 10px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  justify-items: center;
+  background: #121212;
+}
+.left_site {
+  padding-top: 8px;
+  display: flex;
+  justify-content: space-around;
+  width: 25%;
+  color: white;
+}
+.imdb_logo {
+  margin-top: -4px;
+  width: 60px;
+  height: 30px;
+}
+
+.left_site h4 {
+  margin: 0px;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.left_site h4 i {
+  margin-right: 5px;
+}
+.nave_midel {
+  width: 50%;
+}
+.input {
+  text-align: center;
+  width: 98%;
+  height: 35px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+}
+.input i {
+  color: black;
+  margin-left: 7px;
+}
+
+input {
+  height: 100%;
+  width: 80%;
+  outline: none;
+  background-color: transparent;
+  border: transparent;
+}
+.nav_end {
+  text-align: center;
+  padding-top: 10px;
+  width: 25%;
+  color: whitesmoke;
+}
+
+button{
+  background: yellow;
+  height: 40px;
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  margin: 0px;
+  margin-top: -10px;
+  cursor: pointer;
+}
+.nav_end h4 {
+ text-transform: capitalize;
+  margin: 0px;
+}
+h4 i:hover {
+  color: goldenrod;
+}
+#show_all {
+  width: 95%;
+  margin-top: 90px;
+  margin-left: 2%;
+}
+#show_move {
+  width: 85%;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.card {
+  width: 300px;
+  box-shadow: 0 0 4px 3px white;
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+h1,h2,h3,h4{
+    margin: 5px;
+}
+.movi_image {
+  width: 95%;
+  height: 300px;
+}
+#reting1 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+h3{
+  font-size: 20px;
+  color: yellow;
+}
+
+#all_details{
+   box-shadow: 0 0 2px 1px white;
+  background-color: blue;
+   height: 20px;
+   padding: 3px;
+   cursor: pointer;
+   margin-bottom: 5px;
+   font-size: 20px;
+   border-radius: 2px;
+}
+#all_details:hover{
+   color: yellow;
+}
+#reting1 i {
+  color: red;
+  font-size: 30px;
+  cursor: pointer;
+}
+#reting1 i:hover{
+  color: gold;
+  
+}
+
+@media only screen and (max-width: 600px) {
+
+ h1{
+  font-size: x-small !important;
+ }
+ 
+ .left_site a{
+  display: none;
+ }
+.left_site{
+  margin-left: -10px;
+}
+.nave_midel{
+  margin-left: -15px;
+}
+
+ button{
+  width: 150px ;
+  color: #121212;
+  
+  
+ }
+
+
+}
+

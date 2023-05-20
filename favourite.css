@@ -1,0 +1,114 @@
+body {
+  background-color: black;
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+#nav_bar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  background: #121212;
+}
+
+.nav_end3 {
+  text-align: center;
+  width: 25%;
+  color: whitesmoke;
+}
+button:hover {
+  color: gold;
+}
+
+button {
+  background-color: papayawhip;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#nav_bar3 h1 i {
+  font-size: 20px;
+}
+#heading {
+  text-align: center;
+  color: blue;
+}
+
+#show_all {
+  width: 95%;
+  margin-top: 90px;
+  margin-left: 2%;
+}
+#show_move {
+  width: 85%;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.card {
+  width: 300px;
+  box-shadow: 0 0 4px 3px white;
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  margin-right: 1px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 5px;
+}
+.movi_image {
+  width: 95%;
+  height: 300px;
+}
+
+#reting1 {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+h3 {
+  color: yellow;
+  margin-left: 20px;
+}
+
+.all_details{
+   box-shadow: 0 0 2px 1px white;
+   height: 20px;
+   padding: 2px;
+   cursor: pointer;
+   margin-top: 6px;
+   margin-bottom: 2px;
+   margin-right: 10px;
+   background-color: cyan;
+   color: black;
+   border-radius: 3px;
+}
+.all_details:hover{
+   color: red;
+}
+
+
+#reting1 i {
+  margin-top: 0px;
+  margin-right: 30px;
+  color: red;
+  font-size: 30px;
+}
+#reting1 i:hover {
+  color: gold;
+}
+.fa-heart-full {
+  color: red;
+}
